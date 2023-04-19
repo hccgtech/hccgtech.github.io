@@ -40,7 +40,8 @@ const populateOptions = (optionsArray) => {
 };
 
 const populateQuiz = () => {
-  for (let i = 0; i < names.length; i++) {
+  //for (let i = 0; i < names.length; i++) {
+  for (let i = 0; i < 25; i++) {
     let curentName = names[i]
     let allNames = [];
     allNames.push(curentName);
